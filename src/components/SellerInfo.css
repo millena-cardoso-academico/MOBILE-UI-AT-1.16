@@ -1,0 +1,33 @@
+.seller-info {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.seller-info__title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.seller-info__card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.seller-info__card p {
+  margin: 8px 0;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .seller-info {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .seller-info__card {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
